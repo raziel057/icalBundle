@@ -35,7 +35,7 @@ class WelpIcalExtension extends Extension
      *
      * @return string
      */
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'welp_ical';
     }
