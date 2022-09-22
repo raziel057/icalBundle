@@ -26,7 +26,7 @@ class Configuration implements ConfigurationInterface
 
         $rootNode->children()
             ->scalarNode('default_prodid')->defaultValue('-//WelpIcalBundle//Calendar App//FR')->end()
-            ->scalarNode('default_timezone')->defaultNull()->end();
+            ->scalarNode('default_timezone')->defaultValue(date_default_timezone_get())->end();
 
         return $treeBuilder;
     }
