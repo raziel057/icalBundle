@@ -1,7 +1,7 @@
 {
     "name": "welp/ical-bundle",
     "description": "Symfony Bundle to manage .ics iCal file (creating and eventually reading)",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "symfony-bundle",
     "homepage": "https://github.com/welpdev/icalBundle",
     "license": "MIT",
@@ -25,12 +25,12 @@
         }
     },
     "require": {
-        "php": ">=7.4",
-        "symfony/config": "~5.4|~6.0",
-        "symfony/dependency-injection": "~5.4|~6.0",
-        "symfony/http-foundation": "~5.4|~6.0",
-        "symfony/http-kernel": "~5.4|~6.0",
-        "symfony/mime": "~5.4|~6.0",
+        "php": ">=8.2",
+        "symfony/config": "~5.4|~6.0|~7.0",
+        "symfony/dependency-injection": "~5.4|~6.0|~7.0",
+        "symfony/http-foundation": "~5.4|~6.0|~7.0",
+        "symfony/http-kernel": "~5.4|~6.0|~7.0",
+        "symfony/mime": "~5.4|~6.0|~7.0",
         "jsvrcek/ics": ">=0.4"
     },
     "require-dev": {
