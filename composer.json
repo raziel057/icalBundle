@@ -30,7 +30,7 @@
         "symfony/dependency-injection": "~7.0|~8.0",
         "symfony/http-foundation": "~7.0|~8.0",
         "symfony/http-kernel": "~7.0|~8.0",
-        "symfony/mime": ~7.0|~8.0",
+        "symfony/mime": "~7.0|~8.0",
         "jsvrcek/ics": ">=0.4"
     },
     "require-dev": {
